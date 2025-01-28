@@ -9,3 +9,6 @@ Projetos 🚀: Um compilado dos trabalhos e projetos que desenvolvi, destacando 
 Se algum dos meus serviços ou projetos chamou sua atenção, ou se você gostaria de saber mais, não hesite em entrar em contato! Você pode me enviar uma mensagem diretamente pelo site. Será um prazer conversar com você. 😊
 
 Explore à vontade!
+
+Acesse o link abaixo para acessar a página: 
+- https://geehdv.github.io/Curriculo/
