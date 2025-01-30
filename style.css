@@ -6,8 +6,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: "Trebuchet MS",
-    "sans-serif";
+    font-family: "Trebuchet MS", sans-serif;
 }
 :root {
     --bg-color: #080808;
@@ -219,11 +218,11 @@ span{
     }
     41%,
     60%{
-        content: "UI / UX Designer";
+        content: "UI Designer";
     }
     61%,
     80%{
-        content: "Desenvolvedora Web";
+        content: " Game UI/UX Design ";
     }
     81%,
     100%{
@@ -260,11 +259,11 @@ span{
     text-align: center;
     margin: 5rem 0;
 }
-.education{
+.educacao{
     padding: 100px 15px;
     background: var(--second-bg-color);
 }
-.education h2{
+.educacao h2{
     margin-bottom: 5rem;
 }
 .timeline-items{
@@ -349,4 +348,130 @@ span{
 ::-webkit-scrollbar-track{
     background-color: var(--bg-color);
     width: 50px;
+}
+.servicos{
+    background: var(--bg-color);
+    color: black;
+}
+.servicos h2{
+    margin-bottom: 5rem;
+    color: white;
+}
+.servicos-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.servicos-box{
+    background-color: var(--main-color);
+    height: 300px;
+    border-radius: 3rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.servicos-box:hover{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 5px solid var(--main-color);
+    transform: scale(1.03);
+}
+.servicos-box .servicos-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 5rem 5rem;
+}
+.servicos-info h4{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 2;
+}
+.servicos-info p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    max-height: 100px;
+    line-height: 1.7;
+    margin: auto;
+}
+.projetos{
+        background: var(--bg-color);
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,2fr));
+    gap: 2rem;
+}
+.project-card{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    border: 2px solid var(--main-color);
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+}
+.project-card:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transform: translateY(-10px)scale(1.02);
+}
+.project-card img{
+    width: 20vw;
+    border-radius: 1rem;
+}
+.project-card .btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--bg-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer; 
+}
+.project-card:hover .btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--bg-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer; 
+}
+.project-card:hover .btn:hover{
+    background-color: black;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px transparent;
+}
+.project-card h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--main-color)
+}
+.project-card p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    max-height: 100px;
+    line-height: 1.7;
+    margin: auto;
 }
